@@ -1,0 +1,59 @@
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+/* Soft Tech Card Style */
+.soft-card {
+    background: #ffffff;
+    border-radius: 28px;
+    border: 1px solid rgba(226, 232, 240, 0.7);
+    box-shadow: 0 15px 35px -5px rgba(0, 0, 0, 0.02), 0 5px 15px -5px rgba(0, 0, 0, 0.01);
+}
+
+/* Custom Inputs */
+.soft-input {
+    width: 100%;
+    padding: 14px 18px;
+    border-radius: 16px;
+    background: #f8fafc;
+    border: 2px solid transparent;
+    transition: all 0.2s ease;
+}
+
+.soft-input:focus {
+    background: #ffffff;
+    border-color: #6366f1;
+    outline: none;
+    box-shadow: 0 0 0 4px rgba(99, 102, 241, 0.1);
+}
+
+/* Buttons */
+.soft-button-primary {
+    width: 100%;
+    padding: 14px;
+    background: #6366f1;
+    color: white;
+    font-weight: 600;
+    border-radius: 16px;
+    transition: all 0.3s ease;
+}
+
+.soft-button-primary:hover {
+    background: #4f46e5;
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px -5px rgba(99, 102, 241, 0.4);
+}
+
+.soft-button-secondary {
+    width: 100%;
+    padding: 14px;
+    background: #10b981;
+    color: white;
+    font-weight: 600;
+    border-radius: 16px;
+    transition: all 0.3s ease;
+}
+
+/* Badge Styles */
+.badge-indigo { background: #e0e7ff; color: #4338ca; padding: 2px 8px; border-radius: 8px; font-size: 0.7rem; font-weight: 700; }
+.badge-count { background: #f1f5f9; color: #475569; padding: 2px 8px; border-radius: 20px; font-size: 0.7rem; font-weight: 700; }
