@@ -39,13 +39,14 @@ This project is a hybrid system that strategically uses different structures for
 ## 📂 Project Structure
 
 ```text
-├── src/
-│   └── URLShortener.java      # Core Java Logic & CLI
-├── web/
-│   ├── index.html             # Dashboard Structure
-│   ├── style.css              # Soft Tech Aesthetics
-│   └── script.js              # Frontend Logic (State Management)
-└── README.md                  # Project Documentation
+SHORTURL/
+├── index.html            # Web Dashboard (Structure)
+├── script.js             # Frontend Logic & Data Structure Mockup
+├── style.css             # Soft Tech UI Styling (Tailwind/Custom)
+├── URLShortener.java     # Core Java Source Code (Logic & CLI)
+├── URLShortener.class    # Compiled Java Bytecode (Main)
+├── URLData.class         # Compiled Java Bytecode (Data Model)
+└── README.md             # Project Documentation
 ```
 
 ---
@@ -65,6 +66,10 @@ This project is a hybrid system that strategically uses different structures for
     Simply open `web/index.html` in any modern browser to view the dashboard.
 
 ---
+
+## Output
+<img width="1919" height="1020" alt="Screenshot 2026-04-13 130509" src="https://github.com/user-attachments/assets/b20165dc-7157-4671-8416-6f48acf391ae" />
+
 
 ## 📈 Future Roadmap
 
