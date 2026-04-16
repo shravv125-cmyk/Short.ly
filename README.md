@@ -77,6 +77,9 @@ SHORTURL/
 * [ ] Implement **QR Code** generation for every short link.
 * [ ] Connect to a **Database** (MongoDB/PostgreSQL) for persistent storage.
 * [ ] Add **Expiration Dates** to links for security.
+* [ ] Unique Constraint Check
+* [ ] Reserved Keyword Set
+* [ ] Collision Logic
 
 ---
 
